@@ -1,6 +1,4 @@
 
-> Open this page at [https://tecnoprofesor.github.io/automaticwatering/](https://tecnoprofesor.github.io/automaticwatering/)
-
 ## Use as Extension
 
 This repository can be added as an **extension** in MakeCode.
