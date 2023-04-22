@@ -8,7 +8,7 @@ Funcionamiento: el dispositivo testea el nivel de humedad del terreno y activa l
 
 Material necesario: placa Micro:bit, sensor de nivel de líquidos, sensor de humedad, relé, bomba de agua, placa de expansión para Micro:bit, pila 18650 y portapila, placas solares
 
-Conexionado: sensor de humedad (3V) al pin 1, sensor de nivel de líquidos (3V) al pin 2, relé (5V) al pin 8
+Conexionado: sensor de nivel de líquidos (3V) al pin 1, sensor de humedad (3V) al pin 2, relé (5V) al pin 8
 
 Material necesario
 
