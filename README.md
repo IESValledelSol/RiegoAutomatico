@@ -1,6 +1,6 @@
 <img src="https://github.com/IESValledelSol/RiegoAutomatico/blob/master/20230422_184611.jpg" width="500px">
 
-
+<img src="https://github.com/IESValledelSol/RiegoAutomatico/blob/master/20230422_184611.jpg" width="500px">
 
 ## Descripción del proyecto
 
