@@ -1,3 +1,5 @@
+https://github.com/IESValledelSol/RiegoAutomatico/blob/master/Cartel%20Bridge.png
+
 ## Descripción del proyecto
 
 Funcionamiento
