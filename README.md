@@ -1,4 +1,6 @@
-<img src="https://github.com/IESValledelSol/RiegoAutomatico/blob/master/Cartel%20Bridge.png" width="300px">
+<img src="https://github.com/IESValledelSol/RiegoAutomatico/blob/master/20230422_184611.jpg" width="500px">
+
+
 
 ## Descripción del proyecto
 
