@@ -15,4 +15,4 @@ Material necesario
 
 ## Bloques
 
-![A rendered view of the blocks](https://github.com/tecnoprofesor/automaticwatering/raw/master/.github/makecode/blocks.png)
+![A rendered view of the blocks](https://github.com/IESValledelSol/RiegoAutomatico/raw/master/.github/makecode/blocks.png)
