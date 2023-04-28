@@ -1,8 +1,8 @@
-let Humedad = 0
+let NivelHumedad = 0
 let NivelAgua = 0
 let Segundos = 1
-let LevelWater = 1
-let NivelHumedad = 0.5
+let ConsignaNivelAgua = 0.5
+let ConsignaNivelHumedad = 0.5
 pins.digitalWritePin(DigitalPin.P8, 0)
 while (true) {
     NivelAgua = pins.map(
@@ -12,40 +12,17 @@ while (true) {
     0,
     1
     )
-    if (input.buttonIsPressed(Button.A)) {
-        if (NivelAgua >= LevelWater) {
-            pins.digitalWritePin(DigitalPin.P8, 1)
-            basic.showLeds(`
-                # . . . #
-                . # . . .
-                # . # . #
-                . # . # .
-                . . # . #
-                `)
-            basic.pause(1000 * Segundos)
-            pins.digitalWritePin(DigitalPin.P8, 0)
-            continue;
-        }
-    }
-    if (input.buttonIsPressed(Button.B)) {
-        Segundos = Segundos + 1
-        if (Segundos > 9) {
-            Segundos = 1
-        }
-        basic.showNumber(Segundos)
-        continue;
-    }
-    Humedad = pins.map(
+    NivelHumedad = pins.map(
     pins.analogReadPin(AnalogPin.P2),
     0,
     500,
     0,
     1
     )
-    if (Humedad >= NivelHumedad) {
+    if (NivelHumedad >= ConsignaNivelHumedad) {
         basic.showIcon(IconNames.Happy)
     } else {
-        if (NivelAgua >= LevelWater) {
+        if (NivelAgua >= ConsignaNivelAgua) {
             basic.showLeds(`
                 # . . . #
                 . # . . .
@@ -59,6 +36,27 @@ while (true) {
         } else {
             basic.showIcon(IconNames.Sad)
         }
+    }
+    while (input.buttonIsPressed(Button.A)) {
+        if (NivelAgua >= ConsignaNivelAgua) {
+            pins.digitalWritePin(DigitalPin.P8, 1)
+            basic.showLeds(`
+                # . . . #
+                . # . . .
+                # . # . #
+                . # . # .
+                . . # . #
+                `)
+            basic.pause(1000)
+            pins.digitalWritePin(DigitalPin.P8, 0)
+        }
+    }
+    while (input.buttonIsPressed(Button.B)) {
+        Segundos = Segundos + 1
+        if (Segundos > 9) {
+            Segundos = 1
+        }
+        basic.showNumber(Segundos)
     }
     basic.pause(1000)
 }
