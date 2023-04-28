@@ -2,6 +2,8 @@
 
 <img src="https://github.com/IESValledelSol/RiegoAutomatico/blob/master/20230422_184719.jpg" width="500px">
 
+<img src="https://github.com/IESValledelSol/RiegoAutomatico/blob/master/20230428_075157.jpg" width="500px">
+
 ## Descripción del proyecto
 
 Funcionamiento: el dispositivo testea el nivel de humedad del terreno y activa la bomba de agua si el terreno está seco y el depósito de agua está lleno. Al mantener pulsado el botón A, se activa el riego. Al mantener pulsado el botón B, se configura el número de segundos (1 a 9) que la bomba se mantiene activa en cada riego.
