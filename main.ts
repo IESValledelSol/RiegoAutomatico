@@ -8,7 +8,7 @@ while (true) {
     NivelAgua = pins.map(
     pins.analogReadPin(AnalogPin.P1),
     0,
-    500,
+    1023,
     0,
     1
     )
