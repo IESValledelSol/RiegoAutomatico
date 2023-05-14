@@ -1,10 +1,10 @@
 ## Riego automático solar
 
-<img src="https://github.com/IESValledelSol/RiegoAutomatico/blob/master/20230422_184611.jpg" width="500px">
+![](https://github.com/IESValledelSol/RiegoAutomatico/blob/master/20230422_184611.jpg)
 
-<img src="https://github.com/IESValledelSol/RiegoAutomatico/blob/master/20230422_184719.jpg" width="500px">
+![](https://github.com/IESValledelSol/RiegoAutomatico/blob/master/20230422_184719.jpg)
 
-<img src="https://github.com/IESValledelSol/RiegoAutomatico/blob/master/20230428_075157.jpg" width="500px">
+![](https://github.com/IESValledelSol/RiegoAutomatico/blob/master/20230428_075157.jpg)
 
 ## Descripción del proyecto
 
