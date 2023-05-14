@@ -10,6 +10,10 @@
 
 Funcionamiento: el dispositivo testea el nivel de humedad del terreno y activa la bomba de agua si el terreno está seco y el depósito de agua está lleno. Al mantener pulsado el botón A, se activa el riego. Al mantener pulsado el botón B, se configura el número de segundos (1 a 9) que la bomba se mantiene activa en cada riego.
 
+Todo el proyecto se alimenta usando una pila recargable 18650 y 4 placas solares que en conjunto aportan la energía necesaria para la recarga de la pila.
+
+Esta es la versión de exterior. Existe una versión de interior que ha realizado el alumnado y que no dispone de placas solares sino que se alimenta desde cualquier cargador de móvil con un cable USB.
+
 ## Material necesario
 
 Tarjeta Micro:bit
